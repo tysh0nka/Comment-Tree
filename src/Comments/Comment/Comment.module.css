@@ -1,0 +1,49 @@
+.comment {
+    border-left: #bbbbbb solid 1px;
+    margin: 20px 40px;
+    padding-left: 20px;
+    padding-top: 10px;
+    word-break: break-all;
+    position: relative;
+}
+
+.comment button {
+    font-size: 12px;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.commentInfo {
+    display: flex;
+    align-items: center;
+}
+
+.author {
+    margin-left: 20px;
+}
+
+.text {
+    width: 95%;
+
+}
+
+.date {
+    margin-left: 20px;
+    color: gray;
+    font-size: 13px;
+}
+
+
+.editBtn {
+    margin: 0 20px;
+}
+
+.comment a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
